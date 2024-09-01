@@ -8,5 +8,4 @@ import java.util.Optional;
 
 @Repository
 public interface OrdersRepository extends JpaRepository<Orders, Long> {
-    Optional<Orders> findByQuantity(String quantity);
 }
